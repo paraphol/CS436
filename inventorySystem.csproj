@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-CS436_Act-ef2f366e-79d8-4ba5-a4a3-db09ef8610f3</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.22" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.22" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.22" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.22" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.22" />
+  </ItemGroup>
+
+</Project>
